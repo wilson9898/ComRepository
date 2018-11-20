@@ -1,0 +1,38 @@
+{
+  "name": "wilson",
+  "version": "1.0.0",
+  "description": "test new webpack demo",
+  "main": "index.html",
+  "scripts": {
+    "start": "webpack",
+    "build": "babel src/index.js -o dist/index.js",
+    "server": "webpack-dev-server --open"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "wilson",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^9.3.1",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-react-transform": "^3.0.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "css-loader": "^1.0.1",
+    "postcss-loader": "^3.0.0",
+    "react-transform-hmr": "^1.0.4",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.25.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  },
+  "dependencies": {
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3"
+  }
+}
